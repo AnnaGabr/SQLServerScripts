@@ -50,3 +50,5 @@ FOREIGN KEY (CourseID) REFERENCES Courses(CourseID)
 );
 
 
+DELETE FROM CoursexStudent
+WHERE CoursexStundentID = 13;
